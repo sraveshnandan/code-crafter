@@ -128,7 +128,7 @@ const Footer = () => {
 
         {/* Copyright section  */}
 
-        <span className="font-semibold text-[grey]">&copy; Copyright 2023-2023 Designed & Developed By <Link className="underline text-purple-600 font-bold md:mx-2">Code Crafter</Link> | All Rights Reserved. </span>
+        <span className="font-semibold my-3 text-[grey]">&copy; Copyright 2023-2023 Designed & Developed By <Link className="underline text-purple-600 font-bold md:mx-2">Code Crafter</Link> | All Rights Reserved. </span>
       </div>
     </>
   );
