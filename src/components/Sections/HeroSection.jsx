@@ -10,7 +10,7 @@ const HeroSection = () => {
       <div className="flex items-center  py-16 px-2 flex-col font-semibold gap-6   md:flex-row    w-full">
         {/* Left Section  */}
         <div className="left pt-8 flex md:w-1/2 items-center justify-center  flex-col">
-          <span className="text-6xl my-2 font-bold">
+          <span className="text-6xl my-2 font-semibold">
             New Generation Of <span className="text">Sofware</span> Development.
           </span>
           {/* tagline  */}
