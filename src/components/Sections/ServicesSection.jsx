@@ -17,9 +17,26 @@ const ServicesSection = () => {
 
         {/* services Card box  */}
         <div className="flex items-center flex-wrap  md:justify-between justify-center my-4 md:w-[80%] mx-auto">
-          <ServicesCard />
-          <ServicesCard />
-          <ServicesCard />
+          <ServicesCard
+            title={"Software Development"}
+            desc={
+              "We provide best software Services for any type of bussiness as stragegy management"
+            }
+          />
+
+          <ServicesCard
+            title={"App Development"}
+            desc={
+              "We provide best software Services for any type of bussiness as stragegy management"
+            }
+          />
+
+          <ServicesCard
+            title={"Software Design"}
+            desc={
+              "We provide best software Services for any type of bussiness as stragegy management"
+            }
+          />
         </div>
       </div>
     </>

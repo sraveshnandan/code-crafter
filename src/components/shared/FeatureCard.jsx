@@ -1,7 +1,7 @@
 import React from "react";
 import fimg from "../../assets/ring.png";
 
-const FeatureCard = () => {
+const FeatureCard = ({title, desc}) => {
   return (
     <>
       {/* Outer Card  */}
@@ -9,10 +9,9 @@ const FeatureCard = () => {
         {/* Feature Img  */}
         <img src={fimg} className="w-12 h-12 object-cover" alt="f-img" />
         {/* Feature Title  */}
-        <span className="font-bold my-2 text-xl">Development</span>
+        <span className="font-bold my-2 text-xl">{title}</span>
         <span className="text-[grey] font-semibold text-sm">
-          See your authentic mission and values comes to life with a unique
-          brand image.
+          {desc}
         </span>
       </div>
     </>

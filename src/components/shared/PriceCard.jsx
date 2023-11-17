@@ -53,7 +53,7 @@ const PriceCard = ({ price, title }) => {
         <div className="w-full flex items-center gap-8">
           <Link
             className="px-3 rounded-full py-2 text-white my-4 bg-gradient-to-r from-purple-600 to-blue-600 hover:shadow-lg hover:shadow-purple-600 "
-            to="/get-started"
+            to="/quote-now"
           >
             Get Started
           </Link>

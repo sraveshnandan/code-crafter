@@ -76,7 +76,7 @@ const NavBar = () => {
           </button>
         </div>
         {open === true ? (
-          <div className=" md:hidden  absolute top-12 w-[75%]  bg-glass-bg-1 shadow-xl  h-screen backdrop:blur-3xl rounded-lg  flex  right-0 ">
+          <div className=" md:hidden  absolute top-[4.5rem] w-[75%]  bg-glass-bg-1 shadow-xl  h-screen backdrop:blur-3xl rounded-lg  flex  right-0 ">
             <ul className=" flex py-8 bg-transparent w-full flex-col items-center px-8">
               <Link
                 to="/"

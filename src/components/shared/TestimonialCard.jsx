@@ -5,7 +5,7 @@ const TestimonialCard = ({ name, post, data }) => {
   return (
     <>
       {/* Wrapper  */}
-      <div className=" group w-[65%] p-3 md:w-1/4 shadow-lg cursor-pointer  bg-white rounded-md flex justify-center flex-col gap-4">
+      <div className=" group w-[80%] mb-4 p-3 md:w-1/4 shadow-lg cursor-pointer  bg-white rounded-md flex justify-center flex-col gap-4">
         {/* Img Box  */}
 
         <div className="w-full flex gap-4">

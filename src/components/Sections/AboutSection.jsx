@@ -8,7 +8,7 @@ const AboutSection = () => {
       {/* Outer Div Wrapper  */}
       <div className="flex my-20 py-12 md:flex-row flex-col  items-center gap-4 ">
         {/* left section  */}
-        <div className="left flex items-center justify-center md:w-1/2 w-full">
+        <div className="left flex items-center justify-center md:w-1/2 mb-8 w-full">
           <img src={ab} className="  object-fit" alt="about-im" />
         </div>
         {/* right section  */}
@@ -23,7 +23,7 @@ const AboutSection = () => {
             nerashore team skilled in the technologies you need.
           </span>
 
-          <Link className="px-5 py-2 rounded-full text-white bg-gradient-to-r from-purple-600 to-blue-600 hover:shadow-lg hover:shadow-blue-600 w-fit my-6">
+          <Link to="/about" className="px-5 py-2 rounded-full text-white bg-gradient-to-r from-purple-600 to-blue-600 hover:shadow-lg hover:shadow-blue-600 w-fit my-6">
             See About Us
           </Link>
         </div>

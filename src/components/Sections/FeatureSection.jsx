@@ -18,10 +18,31 @@ const FeatureSection = () => {
         {/* Features Card box  */}
 
         <div className="my-12 p-1 w-full items-center justify-around gap-2  flex flex-col md:flex-row flex-wrap">
-          <FeatureCard />
-          <FeatureCard />
-          <FeatureCard />
-          <FeatureCard />
+          <FeatureCard
+            title={"Development"}
+            desc={
+              "See your authentic mission and values comes to life with a unique brand image"
+            }
+          />
+
+          <FeatureCard
+            title={"SEO"}
+            desc={
+              "See your authentic mission and values comes to life with a unique brand image"
+            }
+          />
+          <FeatureCard
+            title={"UI/UX"}
+            desc={
+              "See your authentic mission and values comes to life with a unique brand image"
+            }
+          />
+          <FeatureCard
+            title={"Management"}
+            desc={
+              "See your authentic mission and values comes to life with a unique brand image"
+            }
+          />
         </div>
       </div>
     </>

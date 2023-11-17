@@ -8,7 +8,9 @@ const RootLayout = () => {
     <>
       <section className="md:px-20">
         <NavBar />
-        <Outlet />
+        <section className="py-12"> 
+          <Outlet />
+        </section>
         <Footer />
       </section>
     </>
