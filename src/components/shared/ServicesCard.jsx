@@ -13,7 +13,7 @@ const ServicesCard = () => {
           alt="card bg "
         />
 
-        <div className="bg-white flex text-center relative shadow-xl hover:shadow-purple-200 cursor-pointer flex-col  -mt-10 px-5 py-8 rounded-lg skew-y-6">
+        <div className="bg-white flex text-center relative shadow-xl hover:shadow-purple-200 cursor-pointer flex-col  -mt-10 px-5 py-16  min-h-[300px] rounded-lg skew-y-6">
           <span className="font-semibold text-xl text-black">
             Sofware Design
           </span>
