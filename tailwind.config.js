@@ -4,14 +4,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#5C45FD",
+        'primary': 'purple',
         secondry: "#8A79FF",
         light: "#e3e3e6",
-        "glass-bg": "rgba(255, 255, 255, 0.25)",
-        "bg-dark": "#222",
-        "text-1": "#161616",
-        "hover-bg": "#EFEDFF",
-        "btn-bg": "#2A2B6A",
+        "glass-bg": "rgba(255, 255, 255, 0.15)",
+        "glass-bg-1": "rgb(229, 236, 243)",
       },
       fontFamily: {
         poppin: ["Poppins", "mono"],

@@ -103,7 +103,7 @@ const Footer = () => {
               {/* Email Form  */}
               <form
                 onSubmit={handleSubscribe}
-                className="w-full flex bg-light  rounded-md px-1 py-1  "
+                className="w-full flex bg-light  rounded-md p-2  "
               >
                 {" "}
                 <input
@@ -112,7 +112,7 @@ const Footer = () => {
                   value={email}
                   onChange={(ev) => setEmail(ev.target.value)}
                   placeholder="Enter Your Email"
-                  className="grow px-4 font-semibold  outline-none"
+                  className=" rounded-md grow px-4 font-semibold  outline-none"
                 />
                 <button
                   type="submit"

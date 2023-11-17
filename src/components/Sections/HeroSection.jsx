@@ -7,13 +7,26 @@ const HeroSection = () => {
     <>
       {/* Outer Div Wrapper  */}
 
-      <div className="flex items-center  py-16 px-2 flex-col font-semibold gap-6   md:flex-row    w-full">
+      <div className="flex  items-center  py-16 px-2 flex-col font-semibold gap-6   md:flex-row    w-full">
         {/* Left Section  */}
         <div className="left pt-8 flex md:w-1/2 items-center justify-center  flex-col">
           <span className="text-6xl my-2 font-semibold">
             New Generation Of <span className="text">Sofware</span> Development.
           </span>
           {/* tagline  */}
+
+
+          {/* Animated Shape  */}
+                <div className="hero hidden md:flex items-center justify-center"> 
+                <div className="hero-child"></div></div>
+
+
+                <div className="hero hidden md:flex items-center justify-center"> 
+                <div className="hero-child"></div></div>
+
+
+                {/* Animated shape Ends  */}
+
 
           <span className="my-4 text-slate-500 ">
             make your awesome bussiness idea a reality with Soften, High
@@ -41,7 +54,7 @@ const HeroSection = () => {
 
         {/* Right Section  */}
         <div className="right pt-12 flex items-center  justify-center">
-          <img src={bg} className=" hue-rotate-60 " alt="hero-bg" />
+          <img src={bg} className="" alt="hero-bg" />
         </div>
       </div>
     </>

@@ -6,7 +6,7 @@ const ServicesCard = () => {
   return (
     <>
       {/* Card Outer Layout  */}
-      <div className="flex flex-col p-4 w-[70%] items-center md:w-1/3  text-center  gap-4 ">
+      <div className="flex flex-col p-4 w-[70%] items-center md:w-1/3  text-center my-8   gap-4 ">
         <img
           src={cardBg}
           className="w-20 hue-rotate-30 h-20 z-10"

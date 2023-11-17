@@ -46,28 +46,28 @@ const TestiMonialSection = () => {
       <div className=" bg-glass-bg  p-3 rounded-md flex w-full  justify-around items-center">
         {/* Stat Box  */}
         <div className="flex  flex-col ">
-          <span className=" text text-6xl font-bold">12+ </span>
+          <span className=" text md:text-6xl text-2xl font-bold">12+ </span>
 
           <span className="font-semibold">Projects done</span>
         </div>
 
         {/* Stat Box  */}
         <div className="flex  flex-col ">
-          <span className=" text text-6xl font-bold">98% </span>
+          <span className=" text md:text-6xl text-2xl font-bold">98% </span>
 
           <span className="font-semibold">Success Rate</span>
         </div>
 
         {/* Stat Box  */}
         <div className="flex  flex-col ">
-          <span className=" text text-6xl font-bold">1+ </span>
+          <span className=" text md:text-6xl text-2xl font-bold">1+ </span>
 
           <span className="font-semibold">Winning Awards</span>
         </div>
 
         {/* Stat Box  */}
-        <div className="flex  flex-col ">
-          <span className=" text text-6xl font-bold">50+ </span>
+        <div className="flex   flex-col ">
+          <span className=" text md:text-6xl text-2xl font-bold">50+ </span>
 
           <span className="font-semibold">Happy Cleints</span>
         </div>
