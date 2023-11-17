@@ -4,6 +4,8 @@ import AboutSection from '../components/Sections/AboutSection'
 const AboutPage = () => {
   return (
     <>
+{/* wrapper  */}
+
 
     
     
