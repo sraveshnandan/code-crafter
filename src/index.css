@@ -84,3 +84,7 @@ body::-webkit-scrollbar-thumb {
   border-radius: 12px;
   padding: 1.5rem 0;
 }
+
+.custom-radius{
+  border-radius: 24% 76% 22% 78% / 100% 41% 59% 0% ;
+}
